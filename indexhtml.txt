@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=9" />
+	<title>·É»ú´óÕ½</title>
+	<link rel="stylesheet" type="text/css" href="style/logic/feiji.css">
+	<style type="text/css">
+		body{
+				background:#333 url(style/images/bg.png);
+			}
+	</style>
+</head>
+<body>
+<div id='box'></div>
+<script type="text/javascript" src="style/logic/feiji.js"></script>
+</body>
+</html>
