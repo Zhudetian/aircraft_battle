@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0; 
+	font-family: 'Î¢ÈíÑÅºÚ';
+}
+
+#box{
+	width: 300px;
+	height: 500px;
+	border: 3px solid #eee;
+	margin:50px auto 0;
+	position: relative;
+	overflow:hidden;
+	background-size: 100% 100%;
+}
+#box h3{
+		color: #000000;
+		font-size: 24px;
+		margin: 80px auto 50px;
+		text-align: center;
+}
+#box p.ac{
+		width: 150px;
+		height: 40px;
+		font-size:14px;
+		line-height: 40px;
+		text-align: center;
+		margin: 250px auto;
+		cursor: pointer;
+		background: #c0c0c0;
+		font-weight: 600;
+}
+#box p.on{
+	background: #333;
+	color:#fff;
+	width: 150px;
+	height: 40px;
+	font-size:14px;
+	line-height: 40px;
+	text-align: center;
+	margin: 70px auto;
+	cursor: pointer;
+	font-weight: 600;
+}
+#box .plane{
+	position: absolute;
+	width:50px;
+	height:70px;
+}
+#box .bullet{
+	position: absolute;
+	width: 4px;
+	height: 18px;
+}
+#box .enemy{
+	position: absolute;
+	width: 23px;
+	height: 30px;
+	top:0px;
+	left:0px;
+}
+#box .over{
+	width: 200px;
+	height: 340px;
+	margin:82px auto;
+}
+#box .score{
+	position: absolute;
+	left: 10px;
+	top:10px;
+	font-size: 14px;
+	color:#DD4E42;
+	font-weight: 600;
+}
+#box .op1{
+	color:#DCDCDC;
+	font-size:25px;
+	padding-top:30px;
+	font-weight: 600;
+	text-align: center;
+}
+#box .oSpan{
+	color:#800000;
+	font-size:15px;
+	font-weight: 600;
+	text-align: center;
+	margin-top:30px;
+}
+#box .reStart{
+	width: 120px;
+	height:50px;
+	background:#808080;
+	line-height: 50px;
+	text-align: center;
+	color:#000000;
+	font-weight: 600;
+	margin:80px auto;
+}
+#reStart:hover{
+	background: #804040;
+	color:#ffffff;
+	cursor: pointer;
+}
