@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=9" />
+	<title>JS飞机大战</title>
+	<link rel="icon" href="style/images/plane.bmp">
+	<link rel="stylesheet" type="text/css" href="style/logic/feiji.css">
+	<style type="text/css">
+		body{
+				background:linear-gradient(to right,#444,#c9b6ed,#444);
+			}
+			#box{
+			background: url(style/images/10.png);
+			background-size: 100% 100%;
+			}
+	</style>
+</head>
+<body>
+<div id='box'>
+
+</div>
+<div id='aaa'>
+</div>
+<script type="text/javascript" src="style/logic/feiji.js"></script>
+<script type="text/javascript">
+document.onkeydown=function(event){
+  var e = event || window.event || arguments.callee.caller.arguments[0];
+  if(e && e.keyCode==32){ // 按space暂停
+     alert('游戏已暂停！');
+    }      
+}; 
+</script>
+
+</body>
+</html>
